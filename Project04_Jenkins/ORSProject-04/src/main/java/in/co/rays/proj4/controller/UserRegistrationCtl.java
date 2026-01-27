@@ -33,7 +33,7 @@ import in.co.rays.proj4.util.ServletUtility;
  * </ul>
  * </p>
  *
- * @author Chaitanya Bhatt
+ * @author Neeraj Mewada
  * @version 1.0
  * @see in.co.rays.proj4.model.UserModel
  * @see in.co.rays.proj4.bean.UserBean
@@ -46,8 +46,10 @@ public class UserRegistrationCtl extends BaseCtl {
     /** Log4j Logger */
     private static final Logger log = Logger.getLogger(UserRegistrationCtl.class);
 
-    protected void preload(HttpServletRequest request) {
-        log.debug("UserRegistrationCtl preload() called");
+    @Override
+    protected void preload(HttpServletRequest request, HttpServletResponse response)  {
+        log.debug("UserCtl preload() called");
+
         HashMap<String, String> map = new HashMap<String, String>();
         map.put("Female", "Female");
         map.put("Male", "Male");

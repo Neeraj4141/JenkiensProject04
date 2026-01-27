@@ -28,7 +28,7 @@ import org.apache.log4j.Logger;
  * the session has expired.
  * </p>
  *
- * @author Chaitanya Bhatt
+ * @author Neeraj Mewada
  * @version 1.0
  */
 @WebFilter(urlPatterns = { "/doc/*", "/ctl/*" })

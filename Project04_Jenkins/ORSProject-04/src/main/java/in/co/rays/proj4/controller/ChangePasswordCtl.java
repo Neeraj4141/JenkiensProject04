@@ -29,7 +29,7 @@ import in.co.rays.proj4.util.ServletUtility;
  * the user's profile page.
  * </p>
  * 
- * author Chaitanya Bhatt
+ * author Neeraj Mewada
  * @version 1.0
  */
 @WebServlet(name = "ChangePasswordCtl", urlPatterns = { "/ctl/ChangePasswordCtl" })

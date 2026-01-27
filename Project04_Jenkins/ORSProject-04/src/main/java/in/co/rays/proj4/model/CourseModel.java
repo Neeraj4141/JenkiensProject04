@@ -22,7 +22,7 @@ import org.apache.log4j.Logger; // Added import
  * application-specific checked exceptions to signal error conditions.
  * </p>
  * 
- * @author Chaitanya Bhatt
+ * @author Neeraj Mewada
  * @version 1.0
  */
 public class CourseModel {

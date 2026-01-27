@@ -2,6 +2,10 @@ package in.co.rays.proj4.bean;
 
 import java.util.Date;
 
+/**
+ * @author Neeraj Mewada
+ *
+ */
 public class PatientBean extends BaseBean {
 
 	private String doctorname;
